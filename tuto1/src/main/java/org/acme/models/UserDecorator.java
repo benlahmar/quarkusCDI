@@ -21,6 +21,7 @@ public class UserDecorator implements IUser {
 
 		Log.info("decorator..............");
 		
+		
 		Log.info("[Decorator] User check  ");
         return "****"+ ius.check();
 		
